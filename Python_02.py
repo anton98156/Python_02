@@ -58,21 +58,29 @@
 # Найдите произведение элементов на указанных позициях. 
 # Позиции хранятся в файле file.txt в одной строке одно число.
 
-import os
-os.system("clear")
+# import os
+# os.system("clear")
 
-n = int(input("Введите число: "))
+# n = int(input("Введите число: "))
 
-list = []
-for n in range (-n, n + 1):
-    list.append(n)
+# list = []
+# for n in range (-n, n + 1):
+#     list.append(n)
     
-print(f"{list}")
-# В связи с тем, что file.txt не был прикреплен на платформе, позиции не были извевстны, поэтому выбрал случайные
-print(f"Произведение элементов = {list[6] * list[7]}")
+# print(f"{list}")
+# # В связи с тем, что file.txt не был прикреплен на платформе, позиции не были извевстны, поэтому выбрал случайные
+# print(f"Произведение 6  и 7 элементов списка = {list[6] * list[7]}")
 
 
 # 5 Реализуйте алгоритм перемешивания списка.
 
 # import os
 # os.system("clear")
+
+# list = [9, 21, 132, 56, 6]
+
+# import random
+# random.shuffle(list)
+
+# print(list)
+
